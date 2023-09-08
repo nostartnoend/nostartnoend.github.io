@@ -17,7 +17,7 @@
 
 
 
-<title>wow | nsnd blog</title>
+<title>自我介绍 | nsnd blog</title>
 
 
 
@@ -131,11 +131,73 @@
                 <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">wow</h1>
+            <h1 class="post-title">自我介绍</h1>
             
                 <div class="post-meta">
                     
@@ -144,7 +206,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">一月 14, 2022&nbsp;&nbsp;17:38:55</a>
+                        Date: <a href="#">九月 8, 2023&nbsp;&nbsp;19:49:20</a>
                         </span>
                     
                     
@@ -153,7 +215,46 @@
         </header>
 
         <div class="post-content">
-            
+            <h3 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h3><ul>
+<li>福州大学2021级计算机与大数据学院学生</li>
+<li>爱好：打游戏，<strong>打pc游戏</strong>，<strong>打主机游戏</strong>，看动漫，打<strong>射击</strong>游戏</li>
+<li>真的很宅<hr/></li>
+</ul>
+<ul>
+<li>游戏类型(仅选择几部印象比较深的，不代表我只玩过这些)：<ul>
+<li><ul>
+<li><strong>Fps</strong>：<ul>
+<li>[ Apex ]<br>(<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/Apex%E8%8B%B1%E9%9B%84/23285501?fr=ge_ala">https://baike.baidu.com/item/Apex%E8%8B%B1%E9%9B%84/23285501?fr=ge_ala</a>)</li>
+<li>[ Overwatch ]<br>(<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%AE%88%E6%9C%9B%E5%85%88%E9%94%8B/16025868?fr=ge_ala">https://baike.baidu.com/item/%E5%AE%88%E6%9C%9B%E5%85%88%E9%94%8B/16025868?fr=ge_ala</a>)</li>
+<li>[ Valorant ]<br>(<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6/50370598?fr=ge_ala">https://baike.baidu.com/item/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6/50370598?fr=ge_ala</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><strong>Rpg</strong>：<ul>
+<li>[ Assassin’s Creed ]<br>  (<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1/85070?fr=ge_ala">https://baike.baidu.com/item/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1/85070?fr=ge_ala</a>)</li>
+<li>[ Dishonor1-2 ]<br> (<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%80%BB%E8%BE%B1/5623622?fromModule=lemma_sense-layer#viewPageContent">https://baike.baidu.com/item/%E8%80%BB%E8%BE%B1/5623622?fromModule=lemma_sense-layer#viewPageContent</a>)</li>
+<li>[ Baldur’s Gate 3]<br> (<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%8D%9A%E5%BE%B7%E4%B9%8B%E9%97%A83?fromModule=lemma_search-box">https://baike.baidu.com/item/%E5%8D%9A%E5%BE%B7%E4%B9%8B%E9%97%A83?fromModule=lemma_search-box</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><strong>Act</strong>：<ul>
+<li>[ Devil May Cry ]<br> (<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E9%AC%BC%E6%B3%A3/24368?fromModule=lemma_search-box">https://baike.baidu.com/item/%E9%AC%BC%E6%B3%A3/24368?fromModule=lemma_search-box</a>)</li>
+<li>[ Nioh ]<br> (<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BB%81%E7%8E%8B/13684895?fromModule=lemma_search-box">https://baike.baidu.com/item/%E4%BB%81%E7%8E%8B/13684895?fromModule=lemma_search-box</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>就一臭打游戏的，感觉已经是废物了，至于看什么动漫，什么时候想写再写</li>
+</ul>
+
         </div>
 
         
@@ -167,7 +268,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="http://example.com/2022/01/14/wow/">http://example.com/2022/01/14/wow/</a></span>
+                        <span><a href="http://example.com/2023/09/08/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/">http://example.com/2023/09/08/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</a></span>
                     </p>
                 
                 
@@ -190,6 +291,10 @@
                 <span>Tag(s):</span>
                 <span class="tag">
                     
+                    
+                        <a href="/tags/%E4%BD%9C%E4%B8%9A/"># 作业</a>
+                    
+                        
                 </span>
             </div>
             <div>
@@ -200,10 +305,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2023/09/08/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/">自我介绍</a>
             
-            
-            <a class="next" rel="next" href="/2022/01/14/hello-world/">Hello World</a>
+            <a class="next" rel="next" href="/2022/01/14/wow/">wow</a>
             
         </section>
 
